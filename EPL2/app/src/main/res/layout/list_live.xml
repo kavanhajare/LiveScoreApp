@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:background="#00ff00"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/circleImageView"
+        android:src="#fffff60c"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="74dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="local"
+        android:id="@+id/local"
+        android:layout_centerVertical="true"
+
+        android:layout_marginStart="74dp"
+        android:textColor="#ff0f0f0f"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="visitor"
+        android:id="@+id/visitor"
+
+
+        android:layout_marginEnd="42dp"
+        android:layout_alignTop="@+id/local"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:textColor="#ff0f0f0f"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/loc_score"
+        android:layout_alignTop="@+id/visitor"
+        android:layout_toEndOf="@+id/local"
+        android:layout_marginLeft="50dp"
+        android:textColor="#ff0f0f0f"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/textView8"
+        android:layout_alignTop="@+id/loc_score"
+        android:layout_toEndOf="@+id/loc_score"
+        android:layout_marginStart="6dp"
+        android:textColor="#ff0f0f0f"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/vis_score"
+        android:layout_marginStart="10dp"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:textColor="#ff0f0f0f"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/timer"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ff0f0f0f"
+        android:textSize="14sp"/>
+
+
+</RelativeLayout>

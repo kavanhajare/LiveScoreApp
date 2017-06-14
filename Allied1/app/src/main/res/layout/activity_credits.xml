@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_news"
+    tools:context="com.example.karanc.Others.Credits">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+        android:id="@+id/devtv"
+      android:layout_alignParentTop="true"
+       android:layout_centerInParent="true"
+        android:text="Developed By"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/devcardview"
+        android:alpha="0.8"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/devtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dev_fb"
+    android:background="@mipmap/fb"
+    android:layout_width="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dev_gplus"
+                android:background="@mipmap/gplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView3"
+                android:layout_alignParentEnd="true" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_alignParentTop="true"
+           android:layout_centerInParent="true"
+            android:id="@+id/deviv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/dev"
+            />
+        <TextView
+            android:layout_centerInParent="true"
+    android:layout_below="@+id/deviv"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#5c6BC0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="Karan Chapaneri"
+            android:id="@+id/textView3" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/devcardview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+        android:id="@+id/specialthankstv"
+        android:text="Special Thanks"/>
+
+
+
+
+    <TextView
+        android:id="@+id/guest1tv"
+        android:text="UI/UX Developer"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/specialthankstv"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.CardView
+      android:id="@+id/guest1cardview"
+        android:alpha="0.8"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/guest1tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/g1_fb"
+                android:background="@mipmap/fb"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/g1_gplus"
+                android:background="@drawable/insta"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:id="@+id/guest1iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                />
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/guest1iv"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#5c6BC0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunny Bongiri"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/guest2tv"
+        android:text="Android"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guest1cardview"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.CardView
+        android:alpha="0.8"
+        android:id="@+id/guest2cardview"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/guest2tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/g2_fb"
+                android:background="@mipmap/fb"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_height="wrap_content" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/g2_gplus"
+                android:background="@mipmap/gplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true" />
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:id="@+id/guest2iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                />
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/guest2iv"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#5c6BC0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chirag Patel"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/guest3tv"
+        android:text="PHP"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guest2cardview"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.CardView
+        android:alpha="0.8"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/guest3tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/g3_fb"
+                android:background="@mipmap/fb"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_height="wrap_content" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/g3_gplus"
+                android:background="@mipmap/gplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:id="@+id/guest3iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+
+                />
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/guest3iv"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#5c6BC0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kaushal Lad"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

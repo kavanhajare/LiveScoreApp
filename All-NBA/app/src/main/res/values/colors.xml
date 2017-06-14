@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d2d2e</color>
+    <color name="colorPrimaryDark">#212122</color>
+    <color name="colorPrimaryLight">#E5E5E5</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="red">#F44336</color>
+    <color name="orange">#FF9800</color>
+    <color name="brown">#795548</color>
+    <color name="blue">#3F51B5</color>
+    <color name="green">#4CAF50</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="purple">#9C27B0</color>
+    <color name="black">#000000</color>
+    <color name="amber">#FFC107</color>
+
+    <color name="tricornBlack">#2d2d2e</color>
+    <color name="tricornBlackDark">#212122</color>
+    <color name="tricornBlackLight">#2a2a2a</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="indigoDark">#303F9F</color>
+
+    <color name="gray">#DDDDDD</color>
+    <color name="bgWhite">#f5f5f5</color>
+    <color name="lightGray">#E5E5E5</color>
+
+    <color name="stickiedColor">#228822</color>
+    <color name="flairColor">#009688</color>
+    <color name="redditActionColor">#757575</color>
+    <color name="redditInfoColor">#A5A5A5</color>
+</resources>

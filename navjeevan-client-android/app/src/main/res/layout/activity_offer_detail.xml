@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        style="@style/Widget.CardContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textview_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="30dp"
+                            android:text="Cash Discount"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/accent" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/divider"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginTop="5dp">
+
+                                <TextView
+                                    android:id="@+id/textview_date"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Date : "
+                                    android:textColor="@color/textcolor"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textview_date_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/textcolor"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textview_desc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Description : "
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textcolor"
+                                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/textview_desc_value"
+                                android:layout_width="wrap_content"
+                                android:textColor="@color/textcolor"
+                                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                                android:layout_height="wrap_content" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:id="@+id/layout_min_amount"
+                                android:layout_marginTop="5dp">
+
+                                <TextView
+                                    android:id="@+id/textview_min_amount"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Minimum Amount : "
+                                    android:textColor="@color/textcolor"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                                    android:textStyle="bold" />
+
+
+                                <TextView
+                                    android:id="@+id/textview_min_amount_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/textcolor"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                                     />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/layout_discount_rate"
+                                android:orientation="horizontal"
+                                android:layout_marginTop="5dp">
+
+                                <TextView
+                                    android:id="@+id/textview_discount_rate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/textcolor"
+                                    android:text="Discount Rate : "
+                                    android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                                    android:textStyle="bold" />
+
+
+                                <TextView
+                                    android:id="@+id/textview_discount_rate_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/textcolor"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                                     />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/layout_free_item"
+                                android:orientation="horizontal"
+                                android:layout_marginTop="5dp">
+
+                                <TextView
+                                    android:id="@+id/textview_free_item"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/textcolor"
+                                    android:text="Free Item(s) : "
+                                    android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                                    android:textStyle="bold" />
+
+
+                                <TextView
+                                    android:id="@+id/textview_free_item_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/textcolor"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                                    />
+                            </LinearLayout>
+
+                            <!--<LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingTop="5dp" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.8"
+                                    android:gravity="left"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:id="@+id/textview_desc"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Description : "
+                                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="left"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:id="@+id/textview_desc_value"
+                                        android:layout_width="wrap_content"
+                                        android:text="Order 500 or more you can get 10 % discount.We wishing you Happy Diwali"
+                                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+                            </LinearLayout>-->
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

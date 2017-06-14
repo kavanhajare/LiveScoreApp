@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/indianflag"
+                        android:src="@mipmap/indianflag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@+id/indianflag"
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/testgiventv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Test given by"/>
+
+
+                    <TextView
+                        android:gravity="right"
+                        android:layout_toRightOf="@+id/testgiventv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="900000+"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/usflag"
+                        android:src="@mipmap/language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/usflag"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/testgivenustv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Paper A-Language "/>
+
+
+                    <TextView
+                        android:gravity="right"
+                        android:layout_toRightOf="@+id/testgivenustv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="300"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/taiwanflag"
+                        android:src="@mipmap/enlanguage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/taiwanflag"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/testgiventaiwantv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="English"/>
+
+
+                    <TextView
+                        android:gravity="right"
+                        android:layout_toRightOf="@+id/testgiventaiwantv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="300"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/indianflag1"
+                        android:src="@mipmap/indianflag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/indianflag1"
+                        android:textStyle="bold"
+                        android:id="@+id/avgscoretv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="General Cut-Off"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:layout_toRightOf="@+id/avgscoretv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="877"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/indianflag2"
+                        android:src="@mipmap/indianflag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/indianflag2"
+                        android:textStyle="bold"
+                        android:id="@+id/avgscoreobctv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="OBC Cut-Off"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:layout_toRightOf="@+id/avgscoreobctv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="834"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/indianflag3"
+                        android:src="@mipmap/indianflag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/indianflag3"
+                        android:textStyle="bold"
+                        android:id="@+id/avgscoresctv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SC Cut-Off"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:layout_toRightOf="@+id/avgscoresctv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="810"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/indianflag4"
+                        android:src="@mipmap/indianflag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/indianflag4"
+                        android:textStyle="bold"
+                        android:id="@+id/avgscoresttv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ST Cut-Off"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:layout_toRightOf="@+id/avgscoresttv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="801"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/indianflag5"
+                        android:src="@mipmap/indianflag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/indianflag5"
+                        android:textStyle="bold"
+                        android:id="@+id/avgscoreph1tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PH-1 Cut-Off"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:layout_toRightOf="@+id/avgscoreph1tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="802"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/indianflag6"
+                        android:src="@mipmap/indianflag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/indianflag6"
+                        android:textStyle="bold"
+                        android:id="@+id/avgscoreph2tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PH-2 Cut-Off"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:layout_toRightOf="@+id/avgscoreph2tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="830"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/indianflag7"
+                        android:src="@mipmap/indianflag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/indianflag7"
+                        android:textStyle="bold"
+                        android:id="@+id/avgscoreph3tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PH-3 Cut-Off"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:layout_toRightOf="@+id/avgscoreph3tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="697"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/questiontv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Success Ratio"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:layout_toRightOf="@+id/questiontv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0.1%-0.3%"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/markstv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Maximum Marks"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:layout_toRightOf="@+id/markstv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2025"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/bookstv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Books"/>
+
+                    <TextView
+                        android:id="@+id/book1tv"
+                        android:layout_below="@+id/bookstv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NCERT 41 Hundred"/>
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:layout_below="@+id/book1tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UPSC NDA/CDS/IES Exam Books"
+                        android:id="@+id/book2tv"/>
+
+                    <TextView
+                        android:id="@+id/book3tv"
+                        android:layout_marginTop="12dp"
+                        android:layout_below="@+id/book2tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="History Of Modern India – Bipan Chandra"/>
+                    <TextView
+                        android:id="@+id/book4tv"
+                        android:layout_marginTop="12dp"
+                        android:layout_below="@+id/book3tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Wonder That Was India – A.L. Bhasham."/>
+                    <TextView
+                        android:id="@+id/book5tv"
+                        android:layout_marginTop="12dp"
+                        android:layout_below="@+id/book4tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geography of India – Majid Husain."/>
+                    <TextView
+                        android:id="@+id/book6tv"
+                        android:layout_marginTop="12dp"
+                        android:layout_below="@+id/book5tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="India Year Book "/>
+                    <TextView
+                        android:id="@+id/book7tv"
+                        android:layout_marginTop="12dp"
+                        android:layout_below="@+id/book6tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Environmental Studies: From Crisis to Cure – Rajagopalan. "/>
+
+                    <TextView
+                        android:id="@+id/book8tv"
+                        android:layout_marginTop="12dp"
+                        android:layout_below="@+id/book7tv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Verbal and Non-Verbal Reasoning – R. S.Aggarwal"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/usefultv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Useful Links"/>
+
+                    <TextView
+                        android:id="@+id/link1"
+                        android:layout_below="@+id/usefultv"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="web"
+                        android:text="www.clearIAS.com"/>
+
+                    <TextView
+                        android:id="@+id/link2"
+                        android:layout_below="@+id/link1"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="web"
+                        android:text="www.cleariasexam.com"/>
+
+                    <TextView
+                        android:id="@+id/link3"
+                        android:layout_below="@+id/link2"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="web"
+                        android:text="www.mrunal.org"/>
+
+                    <TextView android:layout_below="@+id/link3"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="web"
+                        android:text="www.tcyonline.com"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

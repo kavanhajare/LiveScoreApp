@@ -1,0 +1,369 @@
+<resources>
+    <string name="app_name">Allied1</string>
+    <string name="title_activity_nav">Nav</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new_user_profile">School Student</string>
+
+    <string-array name="Branch_Names">
+        <item> MECHANICAL </item>
+        <item> ELECTRICAL </item>
+        <item> CIVIL </item>
+        <item> ELECTRONICS AND COMMUNICATION </item>
+        <item> COMPUTER </item>
+        <item> INFORMATION TECHNOLOGY </item>
+        <item> CHEMICAL </item>
+        <item> METALLURGY </item>
+        <item> MECHATRONICS </item>
+        <item> AUTOMOBILE </item>
+        <item> INSTRUMENTATION AND CONTROL </item>
+        <item> AERONAUTICAL </item>
+    </string-array>
+
+<string name="Mech_Desc">
+    Mechanical engineering is the discipline that applies the principles of engineering, physics, and materials science for the design, analysis, manufacturing, and maintenance of mechanical systems. 
+    \n\nIt is the branch of engineering that involves the design, production, and operation of machinery.
+    \n\nThe engineering field requires an understanding of core concepts including mechanics, kinematics, thermodynamics, materials science, structural analysis, and electricity.\n
+
+</string>
+
+    <string name="Elec_Desc">
+        Electrical engineering is a field of engineering that generally deals with the study and application of electricity, electronics, and electromagnetism.
+        \n\nElectrical engineering has now subdivided into a wide range of subfields including electronics, digital computers, power engineering, telecommunications, control systems, radio-frequency engineering, signal processing, instrumentation, and microelectronics.\n
+    </string>
+
+<string name="Civil_Desc">
+    Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including works like roads, bridges, canals, dams, and buildings.
+    \n\nThe curriculum generally includes classes in physics, mathematics, project management, design and specific topics in civil engineering.\n
+
+</string>
+
+    <string name="Ec_Desc">
+        Electronics engineering, or electronic engineering, is an engineering discipline which utilizes non-linear and active electrical components (such as semiconductor devices, especially transistors, diodes and integrated circuits) to design electronic circuits, devices, Microprocessors/Microcontrollers and systems including VHDL Modelling for Programmable logic devices and FPGAs.
+        \n\nThe discipline typically also designs passive electrical components, usually based on printed circuit boards.\n
+    </string>
+
+    <string name="Comp_Desc">
+        Computer engineering is a discipline that integrates several fields of electrical engineering and computer science required to develop computer hardware and software.
+        \n\nComputer engineers usually have training in electronic engineering (or electrical engineering), software design, and hardware-software integration instead of only software engineering or electronic engineering.
+        \n\nComputer engineers are involved in many hardware and software aspects of computing, from the design of individual microcontrollers, microprocessors, personal computers, and supercomputers, to circuit design.\n
+    </string>
+
+    <string name="It_Desc">
+        Information technology (IT) is the application of computers to store, retrieve, transmit and manipulate data.
+        \n\nThe term is commonly used as a synonym for computers and computer networks, but it also encompasses other information distribution technologies such as television and telephones.\n
+    </string>
+
+    <string name="Chem_Desc">
+        Chemical engineering is a branch of engineering that applies physical sciences (physics and chemistry) and life sciences (microbiology and biochemistry) together with applied mathematics and economics to produce, transform, transport, and properly use chemicals, materials and energy.
+        \n\nChemical engineers design large-scale processes that convert chemicals, raw materials, living cells, microorganisms and energy into useful forms and products.\n
+    </string>
+
+    <string name="Metal_Desc">
+        Metallurgy is a domain of materials science and engineering that studies the physical and chemical behavior of metallic elements, their intermetallic compounds, and their mixtures, which are called alloys.
+        \n\nMetallurgy is also the technology of metals: the way in which science is applied to the production of metals, and the engineering of metal components for usage in products for consumers and manufacturers.
+        \n\nThe production of metals involves the processing of ores to extract the metal they contain, and the mixture of metals, sometimes with other elements, to produce alloys.\n
+    </string>
+
+    <string name="Mecha_Desc">
+        Mechatronics is a multidisciplinary field of engineering that includes a combination of systems engineering, mechanical engineering, electrical engineering, telecommunications engineering, control engineering and computer engineering.
+        \n\nAs technology advances, the sub-fields of engineering multiply and adapt. Mechatronics aim is a design process that unifies these subfields.
+        \n\nOriginally, mechatronics just included the combination of mechanics and electronics, hence the word is a combination of mechanics and electronics; however, as technical systems have become more and more complex the word has been broadened to include more technical areas.\n
+
+    </string>
+
+    <string name="Auto_Desc">
+        Automobile Engineering is a branch of engineering which deals with designing, manufacturing and operating automobiles.
+        \n\nIt is a segment of vehicle engineering which deals with motorcycles, buses, trucks, etc.
+        \n\nIt includes mechanical, electrical, electronic, software and safety elements.\n
+
+    </string>
+
+    <string name="Ic_Desc">
+        Instrumentation is defined as the art and science of measurement and control of process variables within a production or manufacturing area.
+        \n\nThe process variables used in industries are Level, Pressure, Temperature, Humidity, Flow, pH, Force, Speed etc.
+        \n\nControl engineering or control systems engineering is the engineering discipline that applies control theory to design systems with desired behaviors.
+        \n\nControl engineers are responsible for the research, design, development and control devices/systems, typically in manufacturing facilities and plants.\n
+    </string>
+
+    <string name="Aero_Desc">
+       Aeronautics is the science or art involved with the study, design, and manufacturing of air flight capable machines, and the techniques of operating aircraft and rockets within the atmosphere.
+        \n\nThe term "aviation" is sometimes used interchangeably with aeronautics, although "aeronautics" includes lighter-than-air craft such as airships, and includes ballistic vehicles while "aviation" technically does not.
+        \n\nA significant part of aeronautical science is a branch of dynamics called aerodynamics, which deals with the motion of air and the way that it interacts with objects in motion, such as an aircraft.\n
+
+    </string>
+
+    <string name="Env_Desc">
+        Environmental Engineering is the branch of engineering concerned with the application of scientific and engineering principles for protection of human populations from the effects of adverse environmental factors; protection of environments, both local and global,
+        from the potentially deleterious effects of natural and human activities; and improvement of environmental quality.\n
+    </string>
+<string name="Prod_Desc">
+    Production Engineering is a combination of manufacturing technology with management science.
+    \n\nA production engineer typically has a wide knowledge of engineering practices and is aware of the management challenges related to production.
+    \n\nThe goal is to accomplish the production process in the smoothest, most-judicious and most-economic way.\n
+</string>
+
+    <string name="Mining_Desc">
+        Mining engineering is an engineering discipline that applies science and technology to the extraction of minerals from the earth.
+        \n\nMining engineering is associated with many other disciplines, such as geology, mineral processing and metallurgy, geotechnical engineering and surveying.
+        \n\nA mining engineer may manage any phase of mining operations – from exploration and discovery of the mineral resource, through feasibility study, mine design, development of plans, production and operations to mine closure.\n
+    </string>
+
+    <string name="Biomedical_Desc">
+        Biomedical engineering is the application of engineering principles and design concepts to medicine and biology for healthcare purposes.
+        \n\nThis field seeks to close the gap between engineering and medicine, combining the design and problem solving skills of engineering with medical and biological sciences to advance health care treatment, including diagnosis, monitoring, and therapy.\n
+    </string>
+
+    <string name="Plastic_Desc">
+        Plastics engineering encompasses the processing, design, development, and manufacture of plastics products. Plastics engineering encompasses plastics material and plastic machinery.
+        \n\nMechanical properties of plastics are often difficult to quantify, and the plastics engineer has to design a product that meets certain specifications while keeping costs to a minimum.
+        \n\nOther properties that the plastics engineer has to address include: outdoor weatherability, thermal properties such as upper use temperature, electrical properties, barrier properties, and resistance to chemical attack.\n
+    </string>
+
+    <string name="rubber_Desc">
+        Rubber Engineering is the field where study of rubber is done from the scientific perspective. Properties of the rubber play a major role in the formation of any rubber product.
+        \n\nThus, a rubber engineering is related to know and to maintain those properties and state of the raw material to give the proper output based on specific temperature and pressure onto
+        which the raw material was subjected.\n
+    </string>
+
+<string name="power_Desc">
+    Power electronics is the application of solid-state electronics to the control and conversion of electric power.
+    \n\nIt also refers to a subject of research in electronic and electrical engineering which deals with the design, control, computation and integration of nonlinear, time-varying energy-processing electronic systems with fast dynamics.\n
+</string>
+
+    <string name="Industrial_Desc">
+        Industrial engineering is a branch of engineering which deals with the optimization of complex processes or systems.
+        \n\nIndustrial engineers work to eliminate waste of time, money, materials, man-hours, machine time, energy and other resources that do not generate value.
+        \n\nAccording to the Institute of Industrial and Systems Engineers, they figure out how to do things better, they engineer processes and systems that improve quality and productivity.\n
+
+    </string>
+
+    <string name="Textile_Desc">
+        This industry is based on the conversion of fiber into yarn, yarn into fabric.
+        \n\nThese are then dyed or printed, fabricated into clothes. Different types of fiber are used to produce yarn. Cotton remains the most important natural fibre, so is treated in depth. There are many variable processes available at the spinning and fabric-forming stages coupled with the complexities of the finishing and colouration processes to the production of a wide ranges of products.
+        \n\nThere remains a large industry that uses hand techniques to achieve the same results.\n
+    </string>
+<string name="Water_Desc">
+     As a sub-discipline of civil engineering is concerned with the flow and conveyance of fluids, principally water and sewage. One feature of these systems is the extensive use of gravity as the motive force to cause the movement of the fluids.
+    \n\nThis area of civil engineering is intimately related to the design of bridges, dams, channels, canals, and levees, and to both sanitary and environmental engineering. the application of fluid mechanics principles to problems dealing with the collection, storage, control, transport, regulation, measurement, and use of water.\n
+</string>
+
+    <string name="Manufact_Desc">
+        Manufacturing engineering is a discipline of engineering dealing with different manufacturing practices and includes the research, design and development of systems, processes, machines, tools, and equipment.
+        \n\nThe manufacturing engineers primary focus is to turn raw materials into a new or updated product in the most economic, efficient, and effective way possible.\n
+
+    </string>
+
+    <string name="ICT_Desc">
+        Information and communications technology (ICT) is an extended term for information technology (IT) which stresses the role of unified communications and the integration of telecommunications (telephone lines and wireless signals), computers as well as necessary enterprise software, middleware, storage,
+        and audio-visual systems, which enable users to access, store, transmit, and manipulate information.\n
+    </string>
+
+<string name="Agri_Desc">
+    Agricultural engineers may perform tasks such as planning, supervising and managing the building of dairy effluent schemes, irrigation, drainage, flood and water control systems, performing environmental impact assessments,
+    agricultural product processing and interpret research results and implement relevant practices.\n
+</string>
+
+<string name="biotech_Desc">
+    It is the application of concepts and methods of biology (and secondarily of physics, chemistry, mathematics, and computer science) to solve real-world problems related to life sciences or the application thereof,
+    using engineering\'s own analytical and synthetic methodologies and also its traditional sensitivity to the cost and practicality of the solution(s) arrived at.\n
+</string>
+
+<string name="Marine_Desc">
+    Marine engineering often refers to the engineering of boats, ships, oil rigs and any other marine vessel or structure, but also encompasses oceanographic engineering.
+    \n\nSpecifically, marine engineering is the discipline of applying engineering sciences, and can include mechanical engineering, electrical engineering, electronic engineering, and computer science, to the development, design, operation and maintenance of watercraft propulsion and also on-board systems and oceanographic technology.\n
+</string>
+
+<string name="Nano_Desc">
+    Nanotechnology is manipulation of matter on an atomic, molecular, and supramolecular scale.
+    \n\nThe earliest, widespread description of nanotechnology referred to the particular technological goal of precisely manipulating atoms and molecules for fabrication of macroscale products, also now referred to as molecular nanotechnology.
+    \n\nNanotechnology as defined by size is naturally very broad, including fields of science as diverse as surface science, organic chemistry, molecular biology, semiconductor physics, microfabrication, etc.\n
+</string>
+
+    <string name="title_activity_suserprofile">College Student</string>
+    <string name="title_activity_alumni_userprofile">Alumni</string>
+
+
+ <string name="gre_desc">
+     The Graduate Record Examination (GRE) is a standardized test that broadly assessess of your critical thinking, analytical writing, verbal reasoning, and quantitative reasoning skills — all skills developed over the course of many years.
+     The Graduate Record Examination (GRE) tests are necessity for admissions requirement for most graduate schools in the United States.
+
+
+ </string>
+
+<string name="verbalsection">
+    The computer-based verbal sections assess reading comprehension, critical reasoning, and vocabulary usage.\n
+    Each verbal section consists of 20 questions to be completed in 30 minutes.
+    Each verbal section consists of about 6 text completion, 4 sentence equivalence, and 10 critical reading questions.
+</string>
+
+    <string name="quant_desc">
+        The computer-based quantitative sections assess basic high school level mathematical knowledge and reasoning skills.
+        each quantitative section consists of 20 questions to be completed in 35 minutes.
+        Each quantitative section consists of about 8 quantitative comparisons, 9 problem solving items, and 3 data interpretation questions.
+    </string>
+
+    <string name="analyticw_desc">
+        The analytical writing section consists of two different essays, an "issue task" and an "argument task".
+        The essays are written on a computer using a word processing program specifically designed by ETS
+    </string>
+
+    <string name="issuetask_Desc">
+        The test taker is given 30 minutes to write an essay about a selected topic.
+        Issue topics are selected from a pool of questions, which the GRE Program has published in its entirety.
+        Individuals preparing for the GRE may access the pool of tasks on the ETS website.
+    </string>
+
+    <string name="arg_desc">
+        The test taker will be given an argument and will be asked to write an essay that critiques the argument.
+         Test takers are asked to consider the argument\'s logic and to make suggestions about how to improve the logic of the argument.
+        Test takers are expected to address the logical flaws of the argument.
+        The time allotted for this essay is 30 minutes
+    </string>
+
+    <string name="exp_desc">
+        The experimental section, which can be either verbal or quantitative, contains new questions ETS is considering for future use. Although the experimental section does not count towards the test-taker\'s score, it is unidentified and appears identical to the scored sections.
+        Because test takers have no definite way of knowing which section is experimental, it is typically advised that test takers try their best on every section.
+        Sometimes an identified research section at the end of the test is given instead of the experimental section
+    </string>
+    <string name="recall_desc">These are based on facts, principles, formulae or laws of the discipline of the paper.
+        The candidate is expected to be able to obtain the answer either from his/her memory of the subject or at most from a one-line computation.</string>
+
+    <string name="compre_desc">
+
+        These questions will test the candidate’s understanding of the basics of his/her field, by requiring him/her to draw simple conclusions from fundamental ideas.
+    </string>
+    <string name="application_desc">In these questions, the candidate is expected to apply his/her knowledge either through computation or by logical reasoning.</string>
+    <string name="analysis_Desc">In these questions, the candidate is presented with data, diagrams, images etc. that require analysis before a question can be answered. A Synthesis question might require the candidate to compare two or more pieces of information. Questions in this category could, for example, involve candidates in recognising unstated assumptions, or separating useful information from irrelevant information.</string>
+    <string name="types_desc">
+        Multiple Choice Questions (MCQ) carrying 1 or 2 marks each in all papers and sections.
+        These questions are objective in nature, and each will have a choice of four answers, out of which the candidate has to mark the correct answer(s).\n
+        Numerical Answer Questions of 1 or 2 marks each in all papers and sections.
+        For these questions the answer is a real number, to be entered by the candidate using the virtual keypad.
+        No choices will be shown for this type of questions.</string>
+
+    <string name="gatexam_desc">
+        The Graduate Aptitude Test in Engineering (GATE) is an all-India examination that primarily tests the comprehensive understanding of various undergraduate subjects in engineering and science.\n
+        GATE is conducted jointly by the Indian Institute of Science and seven Indian Institutes of Technology (Bombay, Delhi, Guwahati, Kanpur, Kharagpur, Madras and Roorkee) on behalf of the National Coordination Board – GATE, Department of Higher Education, Ministry of Human Resources Development (MHRD), Government of India.
+    </string>
+    <string name="quantc_desc">The quantitative aptitude consists of 34 questions. This test measures the numerical ability and accuracy in mathematical calculations. The questions range from purely numeric calculations to problems of arithmetic reasoning, graph and table reading, percentage analysis, categorization and quantitative analysis</string>
+    <string name="dilr_desc">This sections contains 32 questions. Data Interpretation means understanding the given data. Logical Reasoning (LR) will be a test for your logical conclusions</string>
+    <string name="vrc_desc">This section contains 34 questions. It deals with word building and reading ability and ability to infer out of the data to answer questions.</string>
+    <string name="catexam_desc">The Common Admission Test (CAT) is a computer based test held in India.
+        The test scores a candidate on the bases of Quantitative Ability (QA), Verbal Ability (VA) and Reading Comprehension (RC), Data Interpretation (DI) and Logical Reasoning (LR).
+        The Indian Institutes of Management (IIMs) started this exam and use the test for selecting students for their business administration programs. The test is conducted every year by one of the IIMs based on a policy of rotation.</string>
+    <string name="ieltsexam_desc">The International English Language Testing System, or IELTS, is an international standardised test of English language proficiency for non-native English language speakers. It is jointly managed by the British Council, IDP: IELTS Australia and Cambridge English Language Assessment,and was established in 1989. IELTS is one of the major English-language tests in the world.ELTS is accepted by most Australian, British, Canadian and New Zealand academic institutions, by over 3,000 academic institutions in the United States, and by various professional organisations across the world.</string>
+
+    <string name="listening_desc">The module comprises four sections, with ten questions in each section. It takes 40 minutes: 30 - for testing, plus 10 for transferring the answers to an answer sheet.  \n
+        Sections 1 and 2 are about everyday, social situations.  Section 1 has a conversation between two speakers (for example, a conversation about travel arrangements) Section 2 has one person speaking (for example, a speech about local facilities). \n
+        Sections 3 and 4 are about educational and training situations  Section 3 is a conversation between two main speakers (for example, a discussion between two university students, perhaps guided by a tutor)
+        Section 4 has one person speaking about an academic subject</string>
+    <string name="reading_desc">he Reading paper has three sections and texts totaling 2,150-2,750 words. There will be a variety of question types, such as multiple choice, short-answer questions, identifying information, identifying writer’s views, labeling diagrams. Three reading texts, which come from books, journals, magazines, newspapers and online resources written for non-specialist audiences. All the topics are of general interest to students at undergraduate or postgraduate level</string>
+    <string name="writing_desc">In task 1 test takers write at least 150 words in about 20 minutes. In task 2 test takers write at least 250 words in about 40 minutes. Test takers will be penalised if their answer is too short or does not relate to the topic. Answers should be written in full sentences. Task 1: test takers describe a graph, table, chart or diagram in their own words. Task 2: test takers discuss a point of view, argument or problem. Depending on the task, test takers may be required to present a solution to a problem, present and justify an opinion, compare and contrast evidence, opinions and implications, and evaluate and challenge ideas, evidence or an argument</string>
+    <string name="speaking_desc">The speaking test is a face-to-face interview between the test taker and an examiner.The speaking test contains three sections.  Section 1: introduction and interview (4–5 minutes). Section 2: long turn (3–4 minutes). Test takers are given a task card about a particular topic. Section 3: discussions (4–5 minutes). The third section involves a discussion between the examiner and the test taker, generally on questions relating to the theme which they have already spoken about in Section 2</string>
+    <string name="psuexam_desc">PSU stands for Public Sector Undertakings.These companies are owned by the union government of India, or one of the many state or territorial governments, or both.These companies conducts exam to recruit engineers every year. This exam is called PSU Exam.
+
+       PSUs may be classified as Central Public Sector Enterprises (CPSEs), public sector banks (PSBs) or State Level Public Enterprises (SLPEs)</string>
+    <string name="exam_desc"><![CDATA[Written exam of various PSUs can be divided mainly into 4 sections:- Technical Aptitude & Reasoning English & RC General Awareness & current affairs]]></string>
+    <string name="interview_desc">Maximum stress on testing the technical knowledge of the candidate. More of HR Question limited to the general introduction, work experience (if any), hobbies etc. Final year project is very important for the interview.
+        Group Discussion is also conducted at some PSUs with the interview, which involves easy topics are given for discussion. Contemporary social and political issues are highly probable topics to be given. Topics on environmental and technical issues can also be given.</string>
+    <string name="medical_desc">some of the PSUs, candidates selected on the basis of their performance in written exam, interview and GD are finally called for a medical check-up prior to their appointment and training.</string>
+    <string name="toeflexam_desc">Test of English as a Foreign Language (TOEFL) is a standardized test to measure the English language ability of non-native speakers wishing to enroll in English-speaking universities. The test is accepted by many English-speaking academic and professional institutions. TOEFL is one of the two major English-language tests in the world, the other being the IELTS.</string>
+    <string name="listeningt_desc">The Listening section consists of questions on six passages, each 3–5 minutes in length. These passages include two student conversations and four academic lectures or discussions. The conversations involve a student and either a professor or a campus service provider. The lectures are a self-contained portion of an academic lecture, which may involve student participation and does not assume specialized background knowledge in the subject area. Each conversation and lecture passage is heard only once. Test-takers may take notes while they listen and they may refer to their notes when they answer the questions. Each conversation is associated with five questions and each lecture with six</string>
+    <string name="readingt_desc">The Reading section consists of questions on 4–6 passages, each approximately 700 words in length. The passages are on academic topics; they are the kind of material that might be found in an undergraduate university textbook. Passages require understanding of rhetorical functions such as cause-effect, compare-contrast and argumentation. Students answer questions about main ideas, details, inferences, essential information, sentence insertion, vocabulary, rhetorical purpose and overall ideas</string>
+    <string name="writingt_desc">The Writing section measures a test taker\'s ability to write in an academic setting and consists of two tasks: one integrated and one independent. In the integrated task, test-takers read a passage on an academic topic and then listen to a speaker discuss it. The test-taker then writes a summary about the important points in the listening passage and explains how these relate to the key points of the reading passage. In the independent task, the test-taker must write an essay that states their opinion or choice, and then explain it,</string>
+    <string name="speakingt_desc">The Speaking section consists of six tasks: two independent and four integrated. In the two independent tasks, test-takers answer opinion questions on familiar topics. They are evaluated on their ability to speak spontaneously and convey their ideas clearly and coherently. In two of the integrated tasks, test-takers read a short passage, listen to an academic course lecture or a conversation about campus life and answer a question by combining appropriate information from the text and the talk. In the two remaining integrated tasks, test-takers listen to an academic course lecture or a conversation about campus life and then respond to a question about what they heard.</string>
+
+    <string name="upscexam_desc">The Union Public Service Commission is India central agency authorised to conduct the Civil Services Examination, Indian Forest Service examination, Engineering Services Examination, Combined Defence Services Examination, National Defence Academy Examination, Naval Academy Examination, Combined Medical Services Examination, Special Class Railway Apprentice, Indian Economic Service/Indian Statistical Service Examination, Combined Geoscientist and Geologist Examination, and Central Armed Police Forces(Assistant Commandant) Examination.</string>
+
+    <string name="prelim_desc">The pattern includes two papers of two hours duration and 200 marks each. Both papers have multiple choice objective type questions only.\n
+    Paper I tests the candidate\'s knowledge on current events, history of India and Indian national movement, Indian and world geography, Indian polity and governance, economic and social development, environmental ecology, biodiversity, climate change and general science.\n
+Paper II tests the candidates\' skills in comprehension, interpersonal skills, communication, logical reasoning, analytical ability, decision making, problem solving, basic numeracy, data interpretation, English language comprehension skills and mental ability</string>
+    <string name="mains_desc">The Civil Services Mains Examination consists of a written examination and an interview.The written examination consists of nine papers, two qualifying in nature. The written exam consists of 7 papers.</string>
+    <string name="pinterview_desc">Officially called the \"Personality Test\", the objective of the interview is to assess the personal suitability of the candidate for a career in public service by a board of competent and unbiased observers. The test is intended to evaluate the mental calibre of a candidate. In broad terms, this is really an assessment of not only a candidate\'s intellectual qualities, but also social traits and interest in current affairs. Some of the qualities to be judged are mental alertness, critical powers of assimilation, clear and logical exposition, balance of judgement, variety and depth of interest, ability for social cohesion and leadership, and intellectual and moral integrity</string>
+    <string name="qa_desc"><![CDATA[Q&A with Alumni]]></string>
+
+    <string name="Disclaimer">
+        This is not the official ACPC app.
+        Data presented in competitive arenas are true to date, and are presented as available.
+        The sole is purely original, and if by chance, there is any similarity,is purely
+        coincidential
+    </string>
+
+    <string name="New_User_intro">
+        Swipe through all Engineering Colleges in Gujarat
+        View all colleges\' relevant information
+    </string>
+
+    <string name="Student_intro">
+        Get Ready for the competitive exams.
+        Strength your mental abilities with all the resources supplied.
+    </string>
+
+    <string name="Alumni_intro">
+        Get advice from your elders to help discover new capabilities.
+        Talk to people on specific topic.
+    </string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="next">NEXT</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="app_guide">Welcome, New User. \n
+        Swipe left for all attractions
+    </string>
+    <string name="suserapp_guide">Welcome, New User. \n
+        Swipe left for all attractions
+
+    </string>
+    <string name="alumniapp_guide">Welcome, New User. \n
+        Swipe left for all attractions
+
+ </string>
+    <string name="namaskar">namaskar</string>
+
+
+</resources>

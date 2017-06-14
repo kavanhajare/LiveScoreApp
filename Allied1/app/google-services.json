@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "195034140364",
+    "firebase_url": "https://allied-e2629.firebaseio.com",
+    "project_id": "allied-e2629",
+    "storage_bucket": "allied-e2629.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195034140364:android:6032e2e305371009",
+        "android_client_info": {
+          "package_name": "com.example.karanc.allied1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195034140364-krih8u5nfhi1o4nqt9o8e9bk2i9bvkq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA07AgatD4VFNsbtMzKbPv0HqyF7WZ53W8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

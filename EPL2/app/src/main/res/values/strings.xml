@@ -1,0 +1,49 @@
+
+
+    <resources>
+        <string name="app_name">EPL</string>
+        <string name="action_settings">Settings</string>
+        <string name="action_search">Search</string>
+        <string name="drawer_open">Open</string>
+        <string name="drawer_close">Close</string>
+        <string name="app_id">903338346386059</string>
+
+        <string name="nav_item_home">Home</string>
+        <string name="nav_item_friends">Table</string>
+        <string name="nav_item_notifications">Live Scores</string>
+        <string name="nav_item_comm">Commentary</string>
+        <string name="nav_item_fix">Fixtures</string>
+        <string name="nav_item_team">Teams</string>
+
+        <!-- navigation drawer item labels  -->
+        <string-array name="nav_drawer_labels">
+            <item>@string/nav_item_home</item>
+            <item>@string/nav_item_friends</item>
+            <item>@string/nav_item_notifications</item>
+            <item>@string/nav_item_comm</item>
+            <item>@string/nav_item_fix</item>
+            <item>@string/nav_item_team</item>
+
+        </string-array>
+
+        <string name="title_messages">Messages</string>
+        <string name="title_friends">Table</string>
+        <string name="title_home">Home</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_fragment">HomeFragment</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_table_fragment">TableFragment</string>
+    <string name="title_activity_team_details">TeamDetails</string>
+    <string name="title_activity_live_adapter">LiveAdapter</string>
+    <string name="title_activity_comment">Comment</string>
+    <string name="title_activity_comment_fragment">CommentFragment</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="title_activity_fix_team">FixTeamActivity</string>
+    <string name="title_activity_player">PlayerActivity</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    </resources>
+

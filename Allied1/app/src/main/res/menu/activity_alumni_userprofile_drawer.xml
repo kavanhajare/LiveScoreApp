@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_competitivexmas"
+            android:icon="@drawable/exams"
+            android:title="Competitive Arenas"
+
+            />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_reviews"
+                android:icon="@drawable/reviews"
+                android:title="Reviews" />
+            <item
+                android:id="@+id/nav_view_reviews"
+                android:icon="@drawable/view_review"
+                android:title="View Reviews" />
+
+            <item
+                android:id="@+id/nav_grievances"
+                android:icon="@drawable/grievance2"
+                android:title="Report Grievances"
+                />
+            <item
+                android:title="Credits"
+                android:id="@+id/nav_credits"
+                android:icon="@mipmap/star"
+                />
+
+        </menu>
+    </item>
+
+</menu>

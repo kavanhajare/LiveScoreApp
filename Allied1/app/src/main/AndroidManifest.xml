@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.karanc.allied1">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission
+        android:name="com.sendbird.android.sample.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.sendbird.android.sample.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:label="Gujarat's Engineering App"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:parentActivityName=".home_screen"/>
+        <activity android:name=".SignUp"
+            android:parentActivityName=".home_screen"  />
+        <activity android:name=".SignUpSActivity" android:parentActivityName=".home_screen"/>
+        <activity android:name=".MainSActivity" android:parentActivityName=".home_screen"/>
+        <activity android:name=".MainAlumActivity" android:parentActivityName=".home_screen"/>
+        <activity android:name=".SignUpAlumActivity" android:parentActivityName=".home_screen"/>
+        <activity
+            android:name=".home_screen"
+            android:label="Gujarat Engineering Admission 2016" />
+        <activity
+            android:parentActivityName=".home_screen"
+            android:name=".NewUserProfile"
+            android:label="@string/title_activity_new_user_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.karanc.admission.Mechanical"
+            android:label="Mechanical" />
+        <activity
+            android:name="com.example.karanc.admission.Electrical"
+            android:label="Electrical" />
+        <activity
+            android:name="com.example.karanc.admission.Civil"
+            android:label="Civil" />
+        <activity
+            android:name="com.example.karanc.admission.Ec"
+            android:label="Electronics And Communication " />
+        <activity
+            android:name="com.example.karanc.admission.Computer"
+            android:label="Computer" />
+        <activity
+            android:name="com.example.karanc.admission.It"
+            android:label="Information Technology" />
+        <activity
+            android:name="com.example.karanc.admission.Chemical"
+            android:label="Chemical" />
+        <activity
+            android:name="com.example.karanc.admission.Metallurgy"
+            android:label="Metallurgy" />
+        <activity
+            android:name="com.example.karanc.admission.Mechatronics"
+            android:label="Mechatronics" />
+        <activity
+            android:name="com.example.karanc.admission.Automobile"
+            android:label="Automobile" />
+        <activity
+            android:name="com.example.karanc.admission.Ic"
+            android:label="Instrumentation And Control" />
+        <activity
+            android:name="com.example.karanc.admission.Aeronautics"
+            android:label="Aeronautics" />
+        <activity android:name="com.example.karanc.admission.IndividualCollView" />
+        <activity
+            android:name="com.example.karanc.admission.Env"
+            android:label="Environment" />
+        <activity
+            android:name="com.example.karanc.admission.Production"
+            android:label="Production" />
+        <activity
+            android:name="com.example.karanc.admission.Mining"
+            android:label="Mining" />
+        <activity
+            android:name="com.example.karanc.admission.Biomedical"
+            android:label="Biomedical" />
+        <activity
+            android:name="com.example.karanc.admission.Plastic"
+            android:label="Plastic" />
+        <activity
+            android:name="com.example.karanc.admission.Rubber"
+            android:label="Rubber" />
+        <activity
+            android:name="com.example.karanc.admission.Power"
+            android:label="Power Electronics" />
+        <activity
+            android:name="com.example.karanc.admission.Industrial"
+            android:label="Industrial" />
+        <activity
+            android:name="com.example.karanc.admission.Textile"
+            android:label="Textile" />
+        <activity
+            android:name="com.example.karanc.admission.Water"
+            android:label="Water" />
+        <activity
+            android:name="com.example.karanc.admission.Manufacturing"
+            android:label="Manufacturing" />
+        <activity
+            android:name="com.example.karanc.admission.ICT"
+            android:label="Information And Communication" />
+        <activity
+            android:name="com.example.karanc.admission.Agriculture"
+            android:label="Agriculture" />
+        <activity
+            android:name="com.example.karanc.admission.BioTech"
+            android:label="BioTechnology" />
+        <activity
+            android:name="com.example.karanc.admission.Marine"
+            android:label="Marine" />
+        <activity
+            android:name="com.example.karanc.admission.Nano"
+            android:label="Nanotechnology" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Mech"
+            android:label="Colleges"
+            android:parentActivityName="com.example.karanc.admission.Mechanical" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Electrical"
+            android:label="Colleges"
+            android:parentActivityName="com.example.karanc.admission.Electrical" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Civil"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Civil" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Computer"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Computer" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Chemical"
+            android:label="Colleges"
+            android:parentActivityName="com.example.karanc.admission.Chemical" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Aeronautics"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Aeronautics" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Agi"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Agriculture" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Auto"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Automobile" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_BioTech"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.BioTech" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Biomedical"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Biomedical" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Ec"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Ec" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Env"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Env" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Ic"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Ic" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_ICT"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.ICT" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Industrial"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Industrial" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_It"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.It" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Manufact"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Manufacturing" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Marine"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Marine" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Mecha"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Mechatronics" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Metallurgy"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Metallurgy" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Mining"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Mining" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Nano"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Nano" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Plastic"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Plastic" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Power"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Power" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Prod"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Production" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Rubber"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Rubber" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Textile"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Textile" />
+        <activity
+            android:name="com.example.karanc.Branch_Classes.Coll_with_Water"
+            android:label="Colleges "
+            android:parentActivityName="com.example.karanc.admission.Water" />
+
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".SUserprofile"
+            android:parentActivityName=".home_screen"
+            android:label="@string/title_activity_suserprofile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlumniUserprofile"
+            android:label="@string/title_activity_alumni_userprofile"
+            android:parentActivityName=".home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.karanc.Others.GRE"
+            android:label="GRE"
+            />
+        <activity android:name="com.example.karanc.Others.GATE"
+            android:label="GATE"/>
+
+        <activity android:name="com.example.karanc.Others.CAT"
+            android:label="CAT"/>
+        <activity android:name="com.example.karanc.Others.TOEFL"
+            android:label="TOEFL"/>
+        <activity android:name="com.example.karanc.Others.IELTS"
+            android:label="IELTS"/>
+        <activity android:name="com.example.karanc.Others.UPSC"
+            android:label="UPSC"/>
+        <activity android:name="com.example.karanc.Others.PSU"
+            android:label="PSU"/>
+        <activity
+            android:name="com.example.karanc.Introslider.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.karanc.Others.News_Webview"
+            android:label="News"></activity>
+        <activity
+            android:name="com.example.karanc.chat.SendBirdChatActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name="com.example.karanc.chat.SendBirdUserListActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name="com.example.karanc.chat.SendBirdMemberListActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name="com.example.karanc.chat.SendBirdChannelListActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name="com.example.karanc.chat.SendBirdMessagingActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="SendBird"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name="com.example.karanc.chat.SendBirdMessagingChannelListActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.example.gcm" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.example.karanc.chat.gcm.MyGcmListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.example.karanc.chat.gcm.RegistrationIntentService"
+            android:exported="false" />
+        <service
+            android:name="com.example.karanc.chat.gcm.MyInstanceIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".ResetPasswordActivity" />
+    </application>
+
+</manifest>

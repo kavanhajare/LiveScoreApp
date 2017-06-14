@@ -1,0 +1,347 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+
+        cardview:cardCornerRadius="20dp"
+        cardview:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_toLeftOf="@+id/text_bill_total"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="2dp"
+                    android:text="BILL TOTAL"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+                <TextView
+                    android:id="@+id/text_bill_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:minWidth="90dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="2dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_cash_discount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/text_cash"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_toLeftOf="@+id/text_cash_discounts"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="2dp"
+                    android:text="CASH DISCOUNT "
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+                <TextView
+                    android:id="@+id/textview_cash_discount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:layout_toLeftOf="@+id/text_cash_discounts"
+                    android:layout_below="@+id/text_cash"
+                    android:paddingRight="2dp"
+                    android:text="(10% discount)"/>
+
+                <TextView
+
+                    android:id="@+id/text_cash_discounts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:minWidth="90dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="2dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/layout_take_away_discount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/text_take"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_toLeftOf="@+id/text_take_away_discounts"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="2dp"
+                    android:text="TAKE AWAY DISCOUNT "
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+                <TextView
+                    android:id="@+id/textview_take_discount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:layout_toLeftOf="@+id/text_take_away_discounts"
+                    android:layout_below="@+id/text_take"
+                    android:paddingRight="2dp"
+                    android:text="(10% discount)"/>
+
+                <TextView
+
+                    android:id="@+id/text_take_away_discounts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:minWidth="90dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="2dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_grand_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_toLeftOf="@+id/text_grand_total"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="2dp"
+                    android:text="GRAND TOTAL"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+                <TextView
+                    android:id="@+id/text_grand_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:minWidth="90dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="2dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_item_free"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textview_item_free"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="2dp"
+                    android:text="Item(s) Free : "
+                    android:textColor="@color/primary_dark"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+                <TextView
+                    android:id="@+id/textview_item_free_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="2dp"
+                    android:textColor="@color/accent"
+                    android:text="You got one item free fghfjksghs ghdsjkghs gjhds hgjsdhgjk sdhgkjh ghsh sh"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        cardview:cardCornerRadius="20dp"
+        cardview:cardElevation="2dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="2dp"
+                    android:text="ADDRESS"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:textColor="@color/accent" />
+
+                <Button
+                    android:id="@+id/button_change_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="CHANGE"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:background="@color/divider" />
+
+            <TextView
+                android:id="@+id/text_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="2dp"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        cardview:cardCornerRadius="20dp"
+        cardview:cardElevation="2dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_place_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edit_remarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Give your remarks here"
+                    android:inputType="text" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                <Button
+                    android:id="@+id/button_place_order"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_alignParentRight="true"
+                    android:text="HOME DELIVERY"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"/>
+                    <Button
+                        android:id="@+id/button_take_away"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_alignParentRight="true"
+                        android:text="TAKE AWAY"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/text_info_free"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:textColor="@color/primary"
+                    android:text="* No delievery charges for take away." />
+                <TextView
+                    android:id="@+id/text_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:textColor="@color/primary"
+                    android:text="* Note: All orders are cash on delivery/Take away." />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_hotel_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="@color/primary"
+                android:text="Currently delivery service is unavailable, try after some time. Sorry for inconvenience." />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

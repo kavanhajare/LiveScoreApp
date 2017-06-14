@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lol.com.epl" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <service
+        android:name=".Receiver2"
+        android:enabled="true" >
+        <intent-filter>
+            <action android:name="NOTIFICATION_SERVICE" />
+        </intent-filter>
+    </service>
+
+    <application
+        android:name=".ParseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <fragment
+            android:name=".HomeFragment"
+            android:label="@string/title_activity_home_fragment" >
+        </fragment>
+        <fragment
+            android:name=".TableFragment"
+            android:label="@string/title_activity_table_fragment" >
+        </fragment>
+        <fragment
+            android:name=".LiveFragment"
+            android:label="@string/title_activity_live_adapter" >
+        </fragment>
+        <fragment
+            android:name=".Comment"
+            android:label="@string/title_activity_comment" >
+        </fragment>
+        <fragment
+            android:name=".CommentFragment"
+            android:label="@string/title_activity_comment_fragment" >
+        </fragment>
+
+        <activity
+            android:name=".EventActivity"
+            android:label="@string/title_activity_event" >
+        </activity>
+        <activity
+            android:name=".DisplayActivity"
+            android:label="@string/title_activity_display" >
+        </activity>
+        <activity
+            android:name=".FixTeamActivity"
+            android:label="@string/title_activity_fix_team" >
+        </activity>
+        <activity
+            android:name=".PlayerActivity"
+            android:label="@string/title_activity_player" >
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+
+        <service android:name=".NotifyService" />
+    </application>
+
+</manifest>

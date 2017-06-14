@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="General"
+        android:key="general_category">
+
+        <ListPreference
+            android:defaultValue="noteam"
+            android:entries="@array/pref_teams_list_titles"
+            android:entryValues="@array/pref_teams_list_values"
+            android:key="teams_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="Favorite Team" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/notifications"
+        android:key="notifications_category">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="game_start_switch"
+            android:summary="Receive an alert when your favorite team is about to play"
+            android:title="Game starting" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="close_game_switch"
+            android:summary="Receive an alert when a game is getting exciting towards the end"
+            android:title="Close game alert" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

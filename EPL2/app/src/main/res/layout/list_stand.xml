@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:background="#00ff00">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/circleImageView"
+        android:src="#fffff60c"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="74dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/player"
+        android:textSize="12sp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="61dp"
+        android:textColor="#ff0a0a0a"
+
+        android:layout_alignTop="@+id/lose"
+        android:layout_toEndOf="@+id/pos"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/pos"
+        android:textSize="12dp"
+        android:textColor="#ff0a0a0a"
+        android:layout_alignTop="@+id/win"
+        android:layout_alignParentStart="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/win"
+        android:textColor="#ff0a0a0a"
+        android:textSize="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/lose"
+        android:layout_marginEnd="21dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/lose"
+        android:layout_marginLeft="52dp"
+        android:textColor="#ff0a0a0a"
+        android:layout_alignBottom="@+id/win"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icon"
+        android:src="@drawable/arsenal"
+        android:layout_alignTop="@+id/player"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/lose"/>
+
+
+</RelativeLayout>

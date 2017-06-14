@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+
+    <group android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/navigation_order"
+            android:icon="@drawable/ic_action_order"
+            android:title="Todays Orders"
+            />
+        <item
+            android:id="@+id/navigation_pending_order"
+            android:icon="@drawable/ic_action_order"
+            android:title="All Pending Orders"/>
+        <item
+            android:id="@+id/navigation_offers"
+            android:icon="@drawable/ic_action_maps_local_offer"
+            android:title="Offers"/>
+
+         <item
+            android:id="@+id/navigation_home"
+            android:checked="true"
+            android:icon="@drawable/ic_action_restaurent_menu"
+            android:title="Menu"/>
+
+
+        <item
+            android:id="@+id/navigation_daiy_report"
+            android:icon="@drawable/ic_action_order"
+            android:title="Daily Report"/>
+
+        <item
+            android:id="@+id/navigation_monthly_report"
+            android:icon="@drawable/ic_action_order"
+            android:title="Monthly Report"/>
+
+
+    </group>
+
+
+    <item android:title="Miscellanous">
+        <menu>
+            <item
+                android:id="@+id/navigation_setting"
+                android:icon="@drawable/ic_action_action_settings"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/navigation_about"
+                android:icon="@drawable/ic_action_about"
+                android:title="About"/>
+        </menu>
+    </item>
+
+
+</menu>

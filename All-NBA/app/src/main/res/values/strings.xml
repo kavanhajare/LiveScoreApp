@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Ball is Life</string>
+    <string name="title_activity_thread">ThreadActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- General -->
+    <string name="rnba">/r/NBA</string>
+    <string name="points">%1$s points</string>
+    <string name="noThreadFound">No thread found...</string>
+    <string name="no_games_scheduled">No games scheduled</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="retry">Retry</string>
+    <string name="failed_game_data">Could not load game data</string>
+
+    <!-- Strings for MainActivity -->
+    <string name="action_refresh">Refresh</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string name="games_fragment_title">Games</string>
+    <string name="standings_fragment_title">Standings</string>
+    <string name="reddit_nba_fragment_title">/r/NBA</string>
+    <string name="highlights_fragment_title">Highlights</string>
+    <string name="today_string">Today</string>
+    <string name="not_logged">Not logged In</string>
+
+    <!-- Settings -->
+    <string name="title_activity_submission">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="theme">Theme</string>
+
+
+    <string-array name="pref_teams_list_titles">
+        <item>No team</item>
+        <item>Atlanta Hawks</item>
+        <item>Brooklyn Nets</item>
+        <item>Boston Celtics</item>
+        <item>Charlotte Hornets</item>
+        <item>Chicago Bulls</item>
+        <item>Cleveland Cavaliers</item>
+        <item>Dallas Mavericks</item>
+        <item>Denver Nuggets</item>
+        <item>Detroit Pistons</item>
+        <item>Golden State Warriors</item>
+        <item>Houston Rockets</item>
+        <item>Indiana Pacers</item>
+        <item>Los Angeles Clippers</item>
+        <item>Los Angeles Lakers</item>
+        <item>Memphis Grizzlies</item>
+        <item>Miami Heat</item>
+        <item>Milwaukee Bucks</item>
+        <item>Minnesota Timberwolves</item>
+        <item>New Orleans Pelicans</item>
+        <item>New York Knicks</item>
+        <item>Oklahoma City Thunder</item>
+        <item>Orlando Magic</item>
+        <item>Philadelphia 76ers</item>
+        <item>Phoenix Suns</item>
+        <item>Portland Trail Blazers</item>
+        <item>Sacramento Kings</item>
+        <item>San Antonio Spurs</item>
+        <item>Toronto Raptors</item>
+        <item>Utah Jazz</item>
+        <item>Washington Wizards</item>
+    </string-array>
+    <string-array name="pref_teams_list_values">
+        <item>noteam</item>
+        <item>atl</item>
+        <item>bkn</item>
+        <item>bos</item>
+        <item>cha</item>
+        <item>chi</item>
+        <item>cle</item>
+        <item>dal</item>
+        <item>den</item>
+        <item>det</item>
+        <item>gsw</item>
+        <item>hou</item>
+        <item>ind</item>
+        <item>lac</item>
+        <item>lal</item>
+        <item>mem</item>
+        <item>mia</item>
+        <item>mil</item>
+        <item>min</item>
+        <item>nop</item>
+        <item>nyk</item>
+        <item>okc</item>
+        <item>orl</item>
+        <item>phi</item>
+        <item>phx</item>
+        <item>por</item>
+        <item>sac</item>
+        <item>sas</item>
+        <item>tor</item>
+        <item>uta</item>
+        <item>was</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,61 @@
+{
+  "project_info": {
+    "project_number": "915541803408",
+    "project_id": "default-demo-app-e9455"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915541803408:android:6266c1614440d037",
+        "android_client_info": {
+          "package_name": "com.example.karanc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPMvDbhpSm7TtsbmErdnGgLePlj0-6K5I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915541803408:android:7326e665123b7e8c",
+        "android_client_info": {
+          "package_name": "com.example.karanc.chat.gcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPMvDbhpSm7TtsbmErdnGgLePlj0-6K5I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
