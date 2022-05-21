@@ -1,3 +1,0 @@
-include ':app', ':sinch-android-verification-1.0.4'
-
-include ':ClientTest'
